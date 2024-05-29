@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [17.0.0]
+
+### Added
+- Native iOS SDK
+    - Added privacy manifests.
+- Native Android SDK
+    - Supported more integrity use cases.
+
+### Changed
+- Bumped SDK to 17.0.0
+- Bumped iOS SDK version to 17.0.0
+- Bumped Android SDK version to 17.0.0
+- Bumped Graph API version to 17.0.0
+
+## [16.0.2]
+
+### Fixed
+- Fixed a bug where user did not remain logged in on subsequent sessions
+
+### Changed
+- Bumped SDK to 16.0.2
+- Bumped Android SDK version to 16.0.1
+- Bumped iOS SDK version to 16.0.1
+
 ## [16.0.1]
 
 ### Fixed
@@ -20,7 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Windows platform methods
     - FB.Windows.CreateReferral
     - FB.Windows.GetDataReferral
-= Android Cloud
+- Android Cloud
     - Android Cloud Unity example
     - Subscriptions payments methods
 
@@ -320,7 +344,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Facebook Developer Docs: [Changelog v7.x](https://developers.facebook.com/docs/unity/change-log)
 
 <!-- Links -->
-[16.0.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-15.1.0...HEAD
+[17.0.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-16.0.2...HEAD
+[16.0.2]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-16.0.1...sdk-version-16.0.2
+[16.0.1]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-16.0.0...sdk-version-16.0.1
+[16.0.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-15.1.0...sdk-version-16.0.0
 [15.1.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-15.0.0...sdk-version-15.1.0
 [15.0.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-14.1.0...sdk-version-15.0.0
 [14.1.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-14.0.0...sdk-version-14.1.0

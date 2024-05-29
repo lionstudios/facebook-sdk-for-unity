@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [15.1.0]
+
+### Changed
+- Bumped iOS SDK version to 15.1
+- Bumped android SDK versions to 15.1
+
+## [15.0.0]
+
+### Fixed
+- Android SDK path detection on latest Unity versions
+- Duplicate Event System in Unity SDK example
+- Fixed DLLs configuration in asset importer
+- Fixed ConsoleBase.cs script for Unity 2021 and above.
+
+### Changed
+- Bumped windows SDK versions to 1.0.15
+- Bumped Graph API version to 15.0
+- Bumped iOS SDK version to 15.0.0
+- Bumped android SDK versions to 15.0.1
+
 ## [14.1.0]
 
 ### Added
@@ -268,8 +288,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Facebook Developer Docs: [Changelog v7.x](https://developers.facebook.com/docs/unity/change-log)
 
 <!-- Links -->
-
-[14.1.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-14.0.0...HEAD
+[15.1.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-14.1.0...HEAD
+[15.0.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-14.1.0...sdk-version-15.0.0
+[14.1.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-14.0.0...sdk-version-14.1.0
 [14.0.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-13.2.0...sdk-version-14.0.0
 [13.2.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-12.0.0...sdk-version-13.2.0
 [12.0.0]: https://github.com/facebook/facebook-sdk-for-unity/compare/sdk-version-11.0.0...sdk-version-12.0.0

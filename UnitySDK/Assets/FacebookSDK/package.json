@@ -1,0 +1,16 @@
+{
+  "name": "com.lionstudios.release.facebook.unity-sdk",
+  "lionId": "FBK",
+  "author": "Lion Studios - Third Party SDKs",
+  "displayName": "Facebook SDK",
+  "version": "14.1.0",
+  "description": "",
+  "samples": [
+    {
+      "displayName": "Examples",
+      "description": "",
+      "path": "Examples~"
+    }
+  ],
+  "dependencies": {}
+}

@@ -1,3 +1,13 @@
+**Lion Note**:
+
+This project is no longer used for updating our UPM version of Facebook SDK.
+We now use a AWS pipeline, which uses Facebook's public repository and a new repo that contains content to add to it before publishing to npm.
+<br/><br/>
+
+
+
+
+
 Copyright (c) Meta Platforms, Inc. and affiliates.
 
 Facebook SDK for Unity
